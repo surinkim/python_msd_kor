@@ -1,3 +1,4 @@
+__pycache__/
 .Python
 [Bb]in
 [Ii]nclude
@@ -10,3 +11,4 @@ pyvenv.cfg
 pip-selfcheck.json
 .vscode
 tcl
+test.py
