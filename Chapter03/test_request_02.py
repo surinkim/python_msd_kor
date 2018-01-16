@@ -1,10 +1,11 @@
-#Chapter03-request_02.py
+# Chapter03
+# test_request_02.py
 import unittest
 from unittest import mock
 import requests
 from requests.exceptions import ConnectionError
 import requests_mock
-from request_01 import MyBugzilla
+from test_request_01 import MyBugzilla
 
 class TestBugzilla(unittest.TestCase):
     def test_bug_id(self):

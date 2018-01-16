@@ -1,4 +1,5 @@
-#Chapter02-flask_variables_01.py
+# Chapter02
+# flask_variables_01.py
 from flask import Flask, jsonify 
  
 app = Flask(__name__) 

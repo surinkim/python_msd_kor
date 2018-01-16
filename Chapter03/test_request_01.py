@@ -1,4 +1,5 @@
-#Chapter03-request_01.py
+# Chapter03
+# test_request_01.py
 import requests
 import bugzilla
 

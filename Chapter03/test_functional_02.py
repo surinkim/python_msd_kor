@@ -1,16 +1,17 @@
-#Chapter03-functional_test_02.py
+# Chapter03
+# test_functional_02.py
 import unittest
 import json
 import sys
 sys.path.append('../Chapter02')
-from flask_error import app as tested_app
+from flask_error import app as _app
 
 _404 = ('The requested URL was not found on the server. ' ' If you entered the URL manually please check your ' 'spelling and try again.')
 
 class TestApp(unittest.TestCase):
     def setUp(self):
         # app과 연동하기 위해 FlaskClient 인스턴스를 생성한다.
-        self.app = tested_app.test_client()
+        self.app = _app.test_client()
 
     def test_raise(self):
         # /api를 호출하면 flask_error에서 고의로 에러를 발생시켜

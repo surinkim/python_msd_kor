@@ -1,4 +1,5 @@
-#Chapter02-flask_variables_02.py
+# Chapter02
+# flask_variables_02.py
 from flask import Flask, jsonify, request
 from werkzeug.routing import BaseConverter, ValidationError
 

@@ -1,4 +1,5 @@
-#Chapter02-flask_print.py
+# Chapter02
+# flask_print.py
 from flask import Flask, jsonify, request 
  
 app = Flask(__name__) 

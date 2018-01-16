@@ -1,4 +1,5 @@
-#Chapter02-flask_error.py
+# Chapter02
+# flask_error.py
 from flask import Flask, jsonify, abort
 from werkzeug.exceptions import HTTPException, default_exceptions, _aborter
 
