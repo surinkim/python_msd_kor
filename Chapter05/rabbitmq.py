@@ -12,7 +12,7 @@ def message(topic, message):
         connection.close()
 
 # race.34 메시지 전송
-message('race.34', 'We have some results!')
+message('race.34', '새로운 대회(race) 정보!')
 
 # training.12 메시지 전송
-message('training.12', "It's time to do your long run")
+message('training.12', "새로운 훈련 계획(training plan) 정보!")
