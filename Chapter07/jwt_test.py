@@ -1,5 +1,5 @@
 # Chapter07
-# jwt.py
+# jwt_test.py
 import base64
 
 def decode(data):
