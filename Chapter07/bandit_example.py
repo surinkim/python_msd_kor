@@ -1,4 +1,5 @@
-# Chapter07/bandit.py
+# Chapter07
+# bandit_example.py
 import subprocess
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
