@@ -1,7 +1,6 @@
 # Chapter03
 # test_webtest_01.py
 import unittest
-#from flask_webtest import TestApp
 import sys
 sys.path.append('../Chapter02')
 from flask_basic import app as _app
@@ -12,11 +11,7 @@ class TestMyApp(unittest.TestCase):
         # app과 연동하기 위한 클라이언트를 생성한다.
         self.app = TestApp(_app)
 
-
     def test_help(self):
-        # # app과 연동하기 위한 클라이언트를 생성한다.
-        # app = TestApp(_app)
-
         # /api 엔드포인트를 호출한다.
         hello = self.app.get('/api')
 

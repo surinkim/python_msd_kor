@@ -15,7 +15,7 @@ class TestBugzilla(unittest.TestCase):
 
     @requests_mock.mock()
     def test_get_new_bugs(self, mocker):
-        # 요청을 모킹해서, 2개의 버그 목록을 반환한다.
+        # 요청을 모방해서, 2개의 버그 목록을 반환한다.
         bugs = [{'id': 1184528}, {'id': 1184524}]
         mocker.get(requests_mock.ANY, json={'bugs': bugs})
 
