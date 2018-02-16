@@ -16,4 +16,5 @@ test.py
 .coverage
 test
 doc_temp
+.pytest_cache
 
