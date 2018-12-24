@@ -1,5 +1,5 @@
 # Chapter01
-# twisted_example.p
+# twisted_example.py
 import json
 import time
 from twisted.web import server, resource
