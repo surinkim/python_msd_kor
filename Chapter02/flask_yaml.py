@@ -1,7 +1,7 @@
 # Chapter02
-# flask_print.py
+# flask_yaml.py
 from flask import Flask
-import yaml # PyYAML 필요함.
+import yaml # PyYAML ???.
 
 app = Flask(__name__)
 

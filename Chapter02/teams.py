@@ -1,5 +1,5 @@
 # Chapter02
-# flask_blueprint.py
+# teams.py
 from flask import Blueprint, jsonify
 
 teams = Blueprint('teams', __name__)
